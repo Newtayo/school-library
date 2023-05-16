@@ -9,7 +9,6 @@ class Person
   attr_accessor :name, :age
   attr_reader :id
 
-
   def can_use_services?
     if @age >= 18 || @parent_permission
       true
