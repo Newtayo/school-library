@@ -37,7 +37,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](#)- Coming soon
+- [Live Demo Link](#)- This project does not have a live demo
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -79,9 +79,7 @@ This repository includes a ruby file called ```student.rb , person.rb or teacher
 
 
 ## 🔭 Future Features <a name="future-features"></a>
-    -Create a book class
-    -Create a method for borrowing of books
-    -Create a method to keep tracks of books borrowed
+    -Add feature for modifying existing Teacher and Student Profile
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
