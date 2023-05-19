@@ -85,14 +85,14 @@ class App
     @books.each_with_index do |book, index|
       puts "id: #{index} Title: #{book.title}  Author: #{book.author}"
     end
-    select_book = gets.chomp.to_i
+    select_book = gets.chomp
 
     puts 'Please Select the index number of the person renting the book'
     @people.each_with_index do |member, index|
       puts "Index No: #{index} [#{member.class.name}] name: #{member.name} age: #{member.age} id: #{member.id}"
     end
 
-    select_person = gets.chomp.to_i
+    select_person = gets.chomp
     current_date = Date.today
     puts current_date
 
@@ -105,7 +105,7 @@ class App
     person_id = gets.chomp.to_i
 
     person = @people.find { |individual| individual.id == person_id }
-    rented_books = @rental.select { |rents| rents.person == person }
+    rented_books = @rentals.select { |rents| rents.person == person }
     rented_books.each { |borrowed| puts "Book: #{borrowed.book.title}, Date: #{borrowed.date}" }
   end
 end
