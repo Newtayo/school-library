@@ -1,7 +1,3 @@
-require './book'
-require './student'
-require './teacher'
-require './rental'
 require './app'
 class Main
   def main
