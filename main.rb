@@ -2,7 +2,7 @@ require './app'
 class Main
   def main
     app = App.new
-
+    puts 'Welcome to School Library'
     loop do
       puts 'Choose an option:'
       puts '1. List all books'
